@@ -33,3 +33,22 @@ MONGODB_URI = mongodb://localhost:27017/taskmanagement
 ACCESS_TOKEN_SECRET = accessTokenSecret
 
 REFRESH_TOKEN_SECRET = refreshTokenSecret
+
+## Setup Instructions
+
+### Clone the repository
+
+### Install dependencies
+
+npm install
+
+
+### Set up environment variables
+Create a .env file in the root directory (see Environment Variables
+).
+
+### Run the application
+
+npm run start
+
+The server should start at http://localhost:8080 (default).
